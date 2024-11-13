@@ -1,0 +1,77 @@
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+form, .trip-filter {
+    margin-bottom: 20px;
+}
+
+fieldset {
+    margin-top: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #e9ecef;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+/* Стили для формы редактирования */
+.edit-form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.edit-form label {
+    margin-bottom: 3px;
+}
+
+.edit-form input,
+.edit-form textarea {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.edit-form button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.edit-form button[type="submit"]:hover {
+    background-color: #0056b3;
+}
